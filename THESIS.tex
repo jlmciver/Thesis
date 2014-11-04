@@ -1,0 +1,299 @@
+%% 
+%% This is a sample doctoral dissertation.  It shows the appropriate
+%% structure for your dissertation.  It should handle most of the
+%% strange requirements imposed by the Grad school; like the different
+%% handling of titles of one/many appendices.  It will automatically
+%% handle the linespacing changes.  The body default is double-spaced
+%% (except when you use the singlespace or condensed options).  The
+%% default for quotations is single-space, and the default for tabular
+%% environments is also single-space.  
+%%
+%% This class adds the following commands and environments to the
+%% report class, upon which it is based:
+%% Commands
+%% ------------
+%% \degree{name}{abbrv} -- Sets the name and abbreviation for the degree.
+%%                         These default to ``Doctor of Philosopy''
+%%                         and ``Ph.D.'', respectively.
+%% \copyrightyear{year} -- for the copyright page.
+%% \bachelors{degree}{institution} -- for the abstract
+%% \masters{degree}{institution}   --  "
+%%     if you have other degrees you may use
+%% \secondbachelors{degree}{institution}
+%% \thirdbachelors{degree}{institution}
+%% \secondmasters{degree}{institution}
+%% \thirdmasters{degree}{institution}
+%% \priordoctorate{degree}{institution}
+%%
+%% \committeechair{name}           -- for the signature page
+%% or, if you have two co-chairs:
+%% \cochairs{first name}{second name}
+%%
+%% \firstreader{name}              --  "
+%% \secondreader{name}             --  "
+%% \thirdreader{name}              -- (optional)
+%% \fourthreader{name}             --  "
+%% \fifthreader{name}              --  "
+%% \sixthreader{name}              --  "
+%% \departmentchair{name}          -- for the signature page
+%% \departmentname{name}           --  "
+%%
+%% \copyrightpage                  -- produces the copyright page
+%% \signaturepage                  -- produces the signature page
+%%
+%% \frontmatter                    -- these are required in their various
+%% \mainmatter                     -- appropriate locations
+%% \backmatter                     --
+%%
+%% \unnumberedchapter[toc]{name}   -- like \chapter, except that it
+%%                                    produces an unnumbered chapter;
+%%                                    alternatively, like \chapter*,
+%%                                    except that it lists the chapter
+%%                                    in the table of contents.
+%%
+%% New environments:
+%%   dedication  -- for the dedication
+%%   abstract    -- for the abstract
+%%
+%% The thesis documentclass is built on top of the report document class.
+%% It accepts all of the options that the report class accepts, plus the
+%% following:
+%%     doublespace -- the default, indicates double spacing as per U.Mass.
+%%                    requirements.  You will need this when you do your
+%%                    final copy.
+%%     singlespace -- for earlier work, not acceptable to the Grad school
+%%     condensed   -- for earlier work, not acceptable to the Grad school,
+%%                    creates condensed versions of the frontmatter. 
+%%                    Condensed implies singlespace.
+%%     dissertation - the default, indicates that this document is a
+%%                    dissertation.
+%%     proposal    -- indicates that this document is a dissertation proposal,
+%%                    rather than a dissertation.  This will only change the
+%%                    wording on the title and signature pages.
+%%     thesis      -- indicates that this document is a Master's thesis 
+%%                    rather than a doctoral dissertation.  This also changes
+%%                    the default for \degree to Master of Science, M.S.
+%%     allowlisthypenation -- (the default), allows hyphenation of words in
+%%                    the table of contents, the list of figures, and the list
+%%                    of tables.  I believe that this is acceptable to the 
+%%                    Graduate School.
+%%     nolisthyphenation -- disallows hyphenation of words in the table of
+%%                    contents and the list of figures and tables.  Use this 
+%%                    option if the Grad School doesn't like your hyphenation.
+%%     nicerdraft  -- relaxes some of the Grad School's rules for working with
+%%                    drafts -- has no effect when doublespace is in effect
+%%     nonicerdraft -- the default, leaves things in draft as they will be in
+%%                     the final version
+%% umthesis changes the default font size to 12pt, but you may specify 10pt or
+%%   11pt in the options.
+\documentclass[dissertation]{umthesis}          % for Ph.D. dissertation or proposal
+% \documentclass[thesis]{umthesis}  % for Master's thesis
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{color}
+
+%%
+%% If you have enough figures or tables that you run out of space for their
+%% numbers in the List of Tables or List of figures, you can use the following
+%% command to adjust the space left for numbers.  The default is shown:
+%%
+%% \setlength{\tablenumberwidth}{2.3em}
+
+%% Use the hyperref package if you're producing a version for online
+%% distribution and you want hyperlinks.  Note that the Grad School doesn't want
+%% their PDF viewers to colorize or otherwise highlight the links; use the
+%% hidelinks option to hyperref to avoid decorating links.
+%\usepackage[hidelinks]{hyperref}
+
+
+%%%%%% added by Laura 10/22-24
+\usepackage{hyperref}  % makes references clickable in the pdf, very useful!
+\usepackage{rotating}
+\usepackage{ulem} \normalem 
+\newcommand{\laura}[1]{{\color{blue}{#1}}}
+\newcommand{\LC}[1]{{\color{magenta}{[[LC #1]]}}}
+\providecommand{\todo}[1]{{\color{red}$\blacksquare$~\textsf{[TODO: #1]}}}
+
+\def\imbh#1{intermediate mass black hole#1(IMBH#1)\gdef\imbh{IMBH}}
+\def\smbh#1{supermassive black hole#1(SMBH#1)\gdef\smbh{SMBH}}
+\def\bbh#1{binary black hole#1 (BBH#1)\gdef\bbh{BBH}}
+\def\bh#1{black hole#1 (BH#1)\gdef\bh{BH}}
+\def\ns#1{neutron star#1 (NS#1)\gdef\ns{NS}}
+\def\gw#1{gravitational wave#1 (GW#1)\gdef\gw{GW}}
+\def\sn#1{core-collapse supernova#1 (CCSN#1)\gdef\sn{CCSN}}
+\def\pnw#1{post-Newtonian#1 (PN#1)\gdef\pnw{PN}}
+\def\eos#1{equation of state#1 (EOS#1)\gdef\eos{EOS}}
+\def\grb#1{gamma-ray burst#1 (GRB#1)\gdef\grb{GRB}}
+\def\amr#1{adaptive mesh refinement#1 (AMR#1)\gdef\amr{AMR}}
+\def\isco#1{innermost stable circular orbit#1 (ISCO#1)\gdef\isco{ISCO}}
+%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%%
+%% You must fill in all of these appropriately
+\title{The impact of terrestrial noise on the detectability and reconstruction of gravitational wave signals from core-collapse supernovae}
+\author{Jessica L McIver}
+\date{March xx, 2015} % The date you'll actually graduate -- must be
+                     % February, May, or September
+\copyrightyear{2013}
+\bachelors{B.S. Physics}{Syracuse University}
+\secondbachelors{B.S. Magazine Journalism}{Syracuse University}
+\masters{M.S. Physics}{University of Massachusetts Amherst}
+\committeechair{Laura Cadonati}
+\firstreader{Alexandra Pope}
+\secondreader{David Kastor}
+\thirdreader{Benjamin Brau}
+\departmentchair[Department Head]{Rory Miskimen} % Uses "Department Chair" as the title. To
+% use an alternate title, such as "Chair", use \departmentchair[Chair]{Pete Shearer}
+\departmentname{Physics}
+\degree{Doctor of Philosophy}{Ph.D.}
+
+%%
+%% These lines produce the title, copyright, and signature pages.
+%% They are Mandatory; except that you could leave out the copyright page
+%% if you were preparing an M.S. thesis instead of a PhD dissertation.
+\frontmatter
+\maketitle
+\copyrightpage     %% not required for an M.S. thesis
+\signaturepage
+
+%%
+%% Dedication is optional -- but this is how you create it
+%\begin{dedication}              % Dedication page
+%  \begin{center}
+%    \emph{To those little lost sheep.}
+%  \end{center}
+%\end{dedication}
+
+%%
+%% Epigraph goes here...(aka frontispiece)
+%% \chapter{Epigraph}?????
+
+%%
+%% Acknowledgements are optional
+
+% \chapter{Acknowledgements}             % Acknowledgements page
+%Thanks to XX for very extensive comments that have greatly improved this proposal. \
+%Prof. Laura Cadonati  
+%Dr. James Clark
+%Sarah Gossan 
+%Duncan Macleod 
+%Josh Smith 
+%Jeff Kissel 
+%Brian Lantz
+%Claudia Lazzaro 
+%Florent Robinet 
+%Thank committee 
+% 
+%Laura Nuttall 
+%Marissa Walker
+%Thomas Abbott
+%TJ Massinger 
+%Chris Pankow 
+%Peter Saulson 
+%Gaby Gonzalez 
+%Hugh Radkins 
+%Rich Mittleman 
+%Sarah Zuraw
+%Kalina Nedkova 
+
+
+%%
+%% Abstract is MANDATORY. -- Except for MS theses
+\begin{abstract}                % Abstract
+
+A new era of \gw{}  astronomy is rapidly approaching as the Advanced Laser Interferometer Gravitational-wave Observatory (aLIGO) is about to complete its construction and begin science data acquisition.
+The recently installed new hardware promises a ten-fold improvement in LIGO's astrophysical observation range, but also the challenge of understanding unexpected sources of noise and how they will affect searches for gravitational wave transients.
+In this work I will focus on one potential \gw{} source of great interest for aLIGO: core-collapse supernovae, 
+violent star deaths that are some of the most energetic events in the Universe. The inner mechanics of these supernovae are obscure to optical telescopes, and the only way to gain insight into the explosion mechanism driving these events is to infer the intricate interior dynamics of these supernovae through direct observation of gravitational waves, or learn about the pre-collapse thermodynamics with low-energy neutrino observation. 
+\\
+I will present an overview of current \sn{} models, the state of model selection research, and the broader applications of improving waveform reconstruction techniques for longer duration signals with rich and complex structure. I present results for the performance of current waveform reconstruction pipelines using \sn{} waveforms based on these models, and show the adverse affect that the introduction of non-Gaussian noise artifacts presents.\\
+% 
+For any transient \gw{} signal, a crucial component to both earliest possible detection and our understanding of candidate events is the characterization of early data from Advanced LIGO detectors. I present also an overview of the impact of terrestrial noise on the detectability and reconstruction of astrophysical \gw{} transients. Much focus is devoted to elevated levels of transient ground motion - a particularly egregious problem in past science runs. A brief overview of seismic isolation configuration used for the Advanced LIGO instruments is presented. Results show the mitigation of transient noise is effective in reducing transient noise amplitude in the GW band, but not in reducing transient rate during periods of elevated ground motion. 
+%- 
+
+%
+
+
+
+
+\end{abstract}
+
+%%
+%% Preface goes here...would be just like Acknowledgements -- optional
+%% \chapter{Preface} 
+%% ...
+
+
+%%
+%% Table of contents is mandatory, lists of tables and figures are 
+%% mandatory if you have any tables or figures; must be in this order.
+\tableofcontents                % Table of contents
+%\listoftables                   % List of Tables
+\listoffigures                  % List of Figures
+
+%%
+%% We don't handle List of Abbreviations
+%% We don't handle Glossary
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Time for the body of the dissertation
+\mainmatter   %% <-- This line is mandatory
+
+%%
+%% If you want an introduction, which is not a numbered chapter, insert
+%% the following two lines.  This is OPTIONAL:
+%\unnumberedchapter{Introduction}
+%Why on earth do I want to study sheep anyway?
+
+%%
+%% Some sample text
+\newpage
+\input{thesis_intro}
+\newpage
+\input{thesis_CCSN}
+\newpage
+\input{thesis_CCSN_aLIGO}
+\newpage
+\input{thesis_DetChar}
+\newpage
+\input{thesis_CCSN_noise}
+\newpage
+\input{thesis_Conclusions}
+% -------------------------------------------------------------------------------- 
+
+
+
+
+
+
+
+%% End of body
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\appendix
+
+
+%\chapter{THE SECOND APPENDIX TITLE}
+%...
+
+%%
+%% Beginning of back matter
+\backmatter  %% <--- mandatory
+
+%%
+%% We don't support endnotes
+
+%%
+%% A bibliography is required.
+\interlinepenalty=10000  % prevent split bibliography entries
+\bibliographystyle{umthesis}
+\bibliography{umthsmpl}
+\end{document}
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: t
+%%% End: 

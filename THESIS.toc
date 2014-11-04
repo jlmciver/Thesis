@@ -1,0 +1,52 @@
+\contentsline {FrontMatter}{\MakeTextUppercase {\uppercase {Abstract}}}{iv}{chapter*.1}
+\contentsline {FrontMatter}{\MakeTextUppercase {List of Figures}}{ix}{chapter*.3}
+\contentsline {Chapter}{\numberline {1.}\MakeTextUppercase {Introduction }}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Overview}{1}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Gravitational waves - a new window to the Universe}{1}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Core collapse supernovae}{1}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.1.3}LIGO and Advanced LIGO}{1}{subsection.1.1.3}
+\contentsline {subsection}{\numberline {1.1.4}Extracting CCSN physics from Advanced LIGO data}{1}{subsection.1.1.4}
+\contentsline {subsubsection}{\numberline {1.1.4.1}Detectability}{1}{subsubsection.1.1.4.1}
+\contentsline {subsubsection}{\numberline {1.1.4.2}Waveform reconstruction}{1}{subsubsection.1.1.4.2}
+\contentsline {subsection}{\numberline {1.1.5}Terrestrial sources of aLIGO noise and their impact on CCSN}{3}{subsection.1.1.5}
+\contentsline {subsection}{\numberline {1.1.6}Common sources of noise}{3}{subsection.1.1.6}
+\contentsline {subsection}{\numberline {1.1.7}Transient noise}{3}{subsection.1.1.7}
+\contentsline {subsection}{\numberline {1.1.8}Seismic noise}{3}{subsection.1.1.8}
+\contentsline {subsection}{\numberline {1.1.9}Terrestrial noise: impact on detectability, parameter estimation, and waveform reconstruction }{3}{subsection.1.1.9}
+\contentsline {section}{\numberline {1.2}General Relativity and Gravitational waves}{3}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Prediction of gravitational waves}{3}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Propagation of gravitational waves}{3}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}Gravitational wave astronomy}{3}{subsection.1.2.3}
+\contentsline {section}{\numberline {1.3}LIGO and Advanced LIGO}{3}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Advanced LIGO}{3}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}The LIGO interferometers and the global interferometer network}{4}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.3}Advanced LIGO seismic isolation}{5}{subsection.1.3.3}
+\contentsline {subsubsection}{\numberline {1.3.3.1}Suspensions}{6}{subsubsection.1.3.3.1}
+\contentsline {Chapter}{\numberline {2.}\MakeTextUppercase {Core-collapse supernovae}}{9}{chapter.2}
+\contentsline {section}{\numberline {2.1}Overview}{9}{section.2.1}
+\contentsline {section}{\numberline {2.2}Leading models for CCSN explosion mechanism}{9}{section.2.2}
+\contentsline {section}{\numberline {2.3}Extracting the explosion mechanism from LIGO GW data}{11}{section.2.3}
+\contentsline {section}{\numberline {2.4}The importance of waveform reconstruction}{11}{section.2.4}
+\contentsline {Chapter}{\numberline {3.}\MakeTextUppercase {Detecting and reconstructing CCSN signals from aLIGO data }}{12}{chapter.3}
+\contentsline {section}{\numberline {3.1}The burst all-sky search and transient detection}{12}{section.3.1}
+\contentsline {section}{\numberline {3.2}Overview of reconstruction methods}{12}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}cWB2G}{12}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}BayesWave}{12}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}(MaxEnt??)}{12}{subsection.3.2.3}
+\contentsline {section}{\numberline {3.3}Comparison of reconstruction methods}{12}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Technique }{12}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Results }{12}{subsection.3.3.2}
+\contentsline {Chapter}{\numberline {4.}\MakeTextUppercase {Characterizing and mitigating terrestrial noise sources}}{13}{chapter.4}
+\contentsline {section}{\numberline {4.1}Characterizing general transient noise }{13}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Performance of single interferometer burst pipelines}{13}{subsection.4.1.1}
+\contentsline {section}{\numberline {4.2}Seismic noise}{15}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Livingston train up-conversion}{15}{subsection.4.2.1}
+\contentsline {section}{\numberline {4.3}Advanced LIGO seismic noise transient propagation}{15}{section.4.3}
+\contentsline {section}{\numberline {4.4}Techniques for transient noise mitigation}{16}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Data quality vetoes}{16}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Event-based veto generation}{16}{subsection.4.4.2}
+\contentsline {Chapter}{\numberline {5.}\MakeTextUppercase {The impact of terrestrial seismic noise on CCSN detectability and reconstruction}}{18}{chapter.5}
+\contentsline {section}{\numberline {5.1}CCSN detectability in recolored non-Gaussian data}{18}{section.5.1}
+\contentsline {section}{\numberline {5.2}CCSN reconstruction in recolored non-Gaussian data}{18}{section.5.2}
+\contentsline {Chapter}{\numberline {6.}\MakeTextUppercase {Conclusions and future prospects}}{19}{chapter.6}
+\contentsline {BackMatter}{\MakeTextUppercase {Bibliography}}{20}{chapter*.14}
