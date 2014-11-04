@@ -1,0 +1,221 @@
+
+@PhdThesis{KisselThesis, 
+    author = 	{Kissel, Jeffery},
+    title  =	{Calibrating and Improving the Sensitivity of the LIGO Detectors},
+    school =	{Louisiana State University},
+    year   = 	{2010},
+    } 
+
+@Article{GWNuProposal, 
+    author = 	{Katsavounidis, Erik et al},
+    title  =	{Neutrinos meet Gravitational Waves: Preparing for the Next Nearby Core-Collapse Supernova},
+    school =	{Unpublished},
+    year   = 	{2012},
+    } 
+
+@Article{aLIGOoutlook,
+  author = 	 {J. Aasi et al. (The LIGO Scientific Collaboration and the Virgo Collaboration)},
+  title = 	 {{ Prospects for Localization of Gravitational Wave Transients by the Advanced LIGO and Advanced Virgo Observatories}},
+  journal = 	 {arXiv:1304.0670},
+  year = 	 2013,
+}
+
+
+
+@book{Sivia, 
+    author = {Sivia, D.S.}, 
+    title = {Data Analysis: A Bayesian Tutorial}, 
+    publisher = {Oxford University Press}, 
+    year = {2006}, 
+    }
+
+@Article{Gonzalez-GWA,
+  author = 	 {Gonzalez, Gabriela et al},
+  title = 	 {Gravitational Wave Astronomy},
+  journal = 	 {Frontiers of Physics},
+  year = 	 2013,
+}
+
+@Article{FailedSN,
+  author = 	 {Kochanek, C. S. et al},
+  title = 	 {A Survey About Nothing: Monitoring a Million Supergiants for Failed Supernovae},
+  journal = 	 {Astrophys.J},
+  year = 	 2008,
+  volume =	 684,
+  number =	 2,
+}
+
+@Article{HVeto,
+  author = 	 {Smith, Joshua R. et al},
+  title = 	 {A hierarchical method for vetoing noise transients in gravitational-wave detectors},
+  journal = 	 {Class. Quantum. Grav.},
+  year = 	 2011,
+  volume =	 28,
+  number =	 235005,
+}
+
+@Article{Vela,
+  author = 	 {Abadie, J. et al (The LIGO Scientific Collaboration)},
+  title = 	 {Search for gravitational waves associated with the August 2006 timing glitch of the Vela pulsar},
+  journal = 	 {Phys. Rev. D},
+  year = 	 2011,
+  volume =	 83,
+  number =	 042001,
+}
+
+@Article{BurstAllSky,
+  author = 	 {Abadie, J. et. al. (The LIGO Scientific Collaboration and the Virgo collaboration)},
+  title = 	 {All-sky search for gravitational-wave bursts in the second joint {LIGO-Virgo} run},
+  journal = 	 {Phys. Rev. D},
+  year = 	 2012,
+  volume =	 85,
+  number =	 122007,
+}
+
+@Article{GRBs,
+  author = 	 {Abadie, J. et. al. (The LIGO Scientific Collaboration and the Virgo collaboration)},
+  title = 	 {Search for gravitational waves associated with gamma-ray bursts during {LIGO} science run 6 and {Virgo} science runs 2 and 3},
+  journal = 	 {Astrophys J},
+  year = 	 2012,
+  volume =	 760,
+  number =	 1,
+}
+
+
+@Article{Amaldi,
+  author = 	 {McIver, Jessica},
+  title = 	 {Data quality studies of enhanced interferometric gravitational wave detectors},
+  journal = 	 {Class. Quantum. Grav.},
+  year = 	 2012,
+  volume =	 29,
+  number =	 124010,
+}
+
+
+@Article{GWtimingFromNu,
+  author = 	 {Pagliaroli, G. et al},
+  title = 	 {Reconstructing the supernova bounce time with neutrinos in {IceCube}},
+  journal = 	 {Phys. Rev. Letters},
+  year = 	 2009,
+  volume =	 103,
+  number =	 031102,
+}
+
+@Article{Ott-SN_GWs,
+  author = 	 {Ott, Christian},
+  title = 	 {The Gravitational Wave Signature of Core-Collapse Supernovae},
+  journal = 	 {Class. Quantum Grav.},
+  year = 	 2009,
+  volume =	 26,
+  number =	 063001,
+}
+
+@Article{MaxEnt,
+  author = 	 {Summerscales, T.Z. et al},
+  title = 	 {Maximum 
+Entropy 
+for 
+Gravitational 
+Wave 
+Data 
+Analysis: 
+Inferring 
+the 
+Physical 
+Parameters 
+of 
+Core­-Collapse
+Supernovae},
+  journal = 	 {Astrophys.J},
+  year = 	 2008,
+  volume =	 678,
+  number =	 1142,
+}
+
+@Article{cWB,
+  author = 	 {Klimenko, S. et. al.},
+  title = 	 {A coherent method for detection of gravitational wave bursts},
+  journal = 	 {Class. Quantum Grav.},
+  year = 	 2008,
+  volume =	 25,
+  number =	 114029,
+}
+
+@Misc{iLIGO_poster,
+  author = 	 {Blackburn, James Kent},
+  title = 	 {{LIGO} Poster Presentation. {International Conference on Computing in High Energy Physics, Berlin, Germany.}},
+  year = 	 1997,
+}
+
+
+@Article{Louge,
+  author = 	 {Louge, J. et. al.},
+  title = 	 {Inferring core-collapse supernova physics with gravitational waves},
+  journal = 	 {Phys. Rev. D},
+  year = 	 2012,
+  volume =	 86,
+  number =	 044023,
+}
+
+@Article{Macleod-Seisveto,
+  author = 	 {Macleod, Duncan et al},
+  title = 	 {Reducing the effect of seismic noise in {LIGO} searches by targeted veto generation},
+  journal = 	 {Class. Quantum Grav.},
+  year = 	 2012,
+  volume =	 29,
+  number =	 055006,
+}
+
+@Article{CoreCollapse,
+  author = 	 {Goldriech and Weber},
+  title = 	 {Homologously collapsing stellar cores},
+  journal = 	 {Astrophys. J},
+  year = 	 1980,
+  volume =	 238,
+  pages =	 991-997,
+}
+
+@Article{SNMECH,
+  author = 	 {Bethe, H. A.},
+  title = 	 {Supernovae Mechanisms},
+  journal = 	 {Reviews of Modern Physics},
+  year = 	 1990,
+  volume =	 62,
+  pages =	 801-866,
+}
+
+@Article{Harry-aLIGO,
+  author = 	 {Harry, Gregory M. for the LIGO Scientific Collaboration},
+  title = 	 {Advanced {LIGO}: the next generation of gravitational wave detectors},
+  journal = 	 {Class. Quantum Grav.},
+  year = 	 2010,
+  volume =	 27,
+  number =	 084006,
+}
+
+
+%@Article{Bah,
+%  author = 	 {Scrooge, Ebenezer and Shepherd, Alan},
+%  title = 	 {On the Growth of Green in Space},
+%  journal = 	 {Journal of Astrophysical Economics},
+%  year = 	 1992,
+%  volume =	 3,
+%  number =	 4,
+%  month =	 {August},
+%  pages =	 {47--89}
+%}
+
+
+%@InProceedings{xyz,
+%  author = 	 {Daniel J. Barrett and John V. E. Ridgway and Jack C. Wileden},
+%  title = 	 {Why There are No Sheep in our Work},
+%  booktitle = 	 {Proceedings of the Third Sheep Conference},
+%  editor =	 {Ian McPherson Sheepish},
+%  year =	 1997,
+%  organization = {American Sheepherders Society},
+%  publisher =	 {Sheepdip and Associates},
+%  address =	 {Edinburgh, Scotland},
+%  month =	 jan,
+%  pages =	 {39--45}
+%}
+
